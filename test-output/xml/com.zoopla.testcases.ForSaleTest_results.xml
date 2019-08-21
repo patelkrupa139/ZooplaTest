@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="For Sale Test"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="1"
+           time="6.376">
+  <properties />
+  
+            <testcase name="searchpropertiesforSale" time="0.0" classname="com.zoopla.testcases.ForSaleTest">
+          <skipped />
+    </testcase>
+  
+            <testcase name="clickOnPropertiesforSale" time="6.376" classname="com.zoopla.testcases.ForSaleTest" />
+      
+</testsuite>

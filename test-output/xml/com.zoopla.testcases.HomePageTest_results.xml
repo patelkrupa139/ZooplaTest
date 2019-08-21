@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Home page Test"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="2.833">
+  <properties />
+  
+  
+            <testcase name="verifyHomePageHeading" time="0.143" classname="com.zoopla.testcases.HomePageTest" />
+                <testcase name="clickOnMyEnquirieslinkTest" time="2.690" classname="com.zoopla.testcases.HomePageTest" />
+      
+</testsuite>

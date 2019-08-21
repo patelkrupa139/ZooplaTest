@@ -1,0 +1,13 @@
+15:36:20,262 DEBUG DevpinoyLogger:41 - Launching Chrome
+15:36:40,984 DEBUG DevpinoyLogger:41 - Launching Chrome
+15:36:59,332 DEBUG DevpinoyLogger:41 - Launching Chrome
+15:37:21,966 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_GB", UTF-8, parsed); will try to load it.
+15:37:21,978 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_GB.ftl"): Not found
+15:37:21,984 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+15:37:21,986 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+15:37:21,987 DEBUG cache:45 - Loading template for "Extent.ftl"("en_GB", UTF-8, parsed) from "jar:file:/C:/Users/krupa/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+15:37:22,609 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_GB", UTF-8, parsed); will try to load it.
+15:37:22,610 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_GB.ftl"): Not found
+15:37:22,610 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+15:37:22,611 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+15:37:22,611 DEBUG cache:45 - Loading template for "Extent.ftl"("en_GB", UTF-8, parsed) from "jar:file:/C:/Users/krupa/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"

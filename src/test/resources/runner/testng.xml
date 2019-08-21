@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Zoopla Test">
+
+	<listeners>
+		<listener class-name="com.zoopla.extentReportListener.ExtentReporterNG" />
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+
+	<test name="Home page Test">
+		<classes><class name="com.zoopla.testcases.HomePageTest" /> </classes>
+	</test> <!-- Test -->
+
+	<test name="For Sale Test">
+		<classes><class name="com.zoopla.testcases.ForSaleTest" /></classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
