@@ -1,11 +1,10 @@
 package com.zoopla.pages;
 
+import com.zoopla.base.TestBase;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-
-import com.zoopla.base.TestBase;
 
 public class HomePage extends TestBase {
 	
@@ -27,32 +26,29 @@ public class HomePage extends TestBase {
 	@FindBy(xpath = "//li[@id='mn-buy']//a[@class='subnav__link'][contains(text(),'property for sale')]")
 	WebElement UKPropertiesForSale;
 	
-	
-	//Initialising page objects
-	
 	public HomePage() {
 		PageFactory.initElements(driver, this);
-			}
+    }
 	
 	public boolean verifyPageHeading() {
 		return pageHeading.isDisplayed();
-		}
+    }
 	
-	public MyEnquiries myEnquiriesPage() {
+	public MyEnquiriesPage clickMyEnquiriesPage() {
 		myEnquirieslink.click();
-		return new MyEnquiries();
-			}
+		return new com.zoopla.pages.MyEnquiriesPage();
+    }
 	
-	public ForSale ForSalePage() {
+	public ForSalePage clickForSalePage() {
 		forSaleLink.click();
-		return new ForSale();
-			} 
+		return new com.zoopla.pages.ForSalePage();
+    }
 	
-	public PropertiesForSale clickOnPropertiesForSale() {
+	public PropertiesForSalePage clickOnPropertiesForSalePage() {
 		Actions action = new Actions(driver);
 		action.moveToElement(forSaleLink).build().perform();
 		UKPropertiesForSale.click();
-		return new PropertiesForSale();
-		}
+		return new PropertiesForSalePage();
+    }
 
 }
